@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel> 
+    <title>Libremanuals</title>
+    <link>http://www.libremanuals.net</link>
+    <description>Libros libres para el Software</description>
+    <language>es-es</language>
+
+    <item>
+      <title>Una Introducción a la programación en Emacs LISP</title>
+      <description>Este es el primer libro que editamos. La traducción del libro ha sido hecha por Libremanuals. Es un libro muy paradigmático de la comunidad (emacs-es) donde los hispanohablantes se acercan a realizar impulsos de traducción o lectura del libro para ser mejores usuarios y programadores de emacs.</description>
+        <guid>http://libremanuals.net/elisp-es.html</guid>
+        <link>http://libremanuals.net/elisp-es.html</link>
+        <dc:date>2016-12-24</dc:date>
+    </item>
+
+    <item>
+      <title>Guía Compacta de Org-Mode</title>
+        <description>Automatically converting informal English sentences into formal Propositional Logic.</description>
+        <guid>http://libremanuals.net/org-mode.html</guid>
+        <link>http://libremanuals.net/org-mode.html</link>
+        <dc:date>2016-10-01</dc:date>
+    </item>
+
+    <item>
+      <title>Una Introducción a GCC</title>
+      <description>Este manual ofrece una introducción tutorial completa a los compiladores GNU C y C++, gcc y g++. Los compiladores permiten pasar de código fuente a código objeto (por decirlo con una metáfora de recetas de cocina a comida real).</description>
+      <guid>http://libremanuals.net/gcc.html</guid>
+      <link>http://libremanuals.net/gcc.html</link>
+      <dc:date>2016-10-06</dc:date>
+    </item>
+
+    <item>
+      <title>Una Introducción a R</title>
+      <description>Este manual ofrece una introducción tutorial completa al lenguaje GNU R.</description>
+      <guid>http://libremanuals.net/r.html</guid>
+      <link>http://libremanuals.net/r.html</link>
+      <dc:date>2016-04-27</dc:date>
+    </item>
+
+  </channel>
+</rss>
