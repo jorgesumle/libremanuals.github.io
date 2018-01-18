@@ -16,6 +16,49 @@
     <!-- Custom styles for this template -->
     <link href="css/4-col-portfolio.css" rel="stylesheet">
 
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"Book",
+  "name" : "Una Introducción a R",
+  "author": {
+    "@type":"Organization",
+    "name":"R Development Team"
+  },
+  "url" : "http://www.libremanuals.net/r.html",
+  "workExample" : [{
+    "@type": "Book",
+    "isbn": "978-84-697-7122-8",
+    "bookEdition": "1st Edition",
+    "bookFormat": "http://schema.org/Hardcover",
+    "potentialAction":{
+    "@type":"ReadAction",
+    "target":
+      {
+        "@type":"EntryPoint",
+        "urlTemplate":"http://www.barnesandnoble.com/store/info/offer/0316769487?purchase=true",
+        "actionPlatform":[
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/IOSPlatform",
+          "http://schema.org/AndroidPlatform"
+        ]
+      },
+      "expectsAcceptanceOf":{
+        "@type":"Offer",
+        "Price":15,
+        "priceCurrency":"EUR",
+        "eligibleRegion" : {
+          "@type":"Country",
+          "name":"US"
+        },
+        "availability": "http://schema.org/InStock"
+      }
+    }
+  }]
+}
+</script>
+
+    
   </head>
 
   <body>
@@ -62,13 +105,13 @@
 
       <!-- Page Heading -->
       <h1 class="my-4">Una Introducción a R</h1>
-      <div class="row">
+      <div class="row" vocab="http://schema.org/" typeof="Product">
         <div class="col-sm-4 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/R-front.png" alt="Una Introducción a R"></a>
+            <a href="#"><img class="card-img-top" src="img/R-front.png" alt="Una Introducción a R" property="image" ></a>
           </div>
         </div>
-        <div class="col-sm-8 portfolio-item">
+        <div class="col-sm-8 portfolio-item" property="description">
           <div class="card h-100">
 	    <p class="card-text">
 	      Este manual ofrece una introducción tutorial completa al lenguaje GNU R.
@@ -105,7 +148,18 @@ Silvia González).
 	    <ul>
 	      <li>ISBN: 978-84-697-7122-8</li>
 	      <li>Número de Páginas: 100</li>
+	      <li><span property="price">15</span>€</li>
 	    </ul>
+
+	    <p class="card-text">Ya puedes comprarlo en
+	      <ul>
+		<li><a href="http://larosanegraediciones.com/ciencia-y-tecnologia/896-una-introduccion-a-r.html">La Rosa Negra</a></li>		
+		<li><a href="https://www.traficantes.net/libros/una-introduccion-r">Traficantes de Sueños</a></li>
+		<li><a href="https://www.libros.so/libro/una-introduccion-a-r_1081725">URJC</a></li>
+		<li><a href="https://www.libros.so/libro/una-introduccion-a-r_1081725">UAM</a></li>
+		<li><a href="">UAM</a></li>
+	      </ul>
+
 	    
           </div>
         </div>
