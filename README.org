@@ -1,0 +1,5 @@
+Libremanuals es un colectivo editorial que surge para la difusión de
+libros libres impresos acerca de Software Libre en la lengua española.
+
+Este es solo el git para la web, pero es de solo lectura para uso
+interno.
