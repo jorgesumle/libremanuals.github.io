@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="1.5">
   <channel> 
     <title>Libremanuals</title>
     <link>http://www.libremanuals.net</link>
@@ -37,5 +37,14 @@
       <dc:date>2016-04-27</dc:date>
     </item>
 
+    <item>
+      <title>El Tutorial de Python</title>
+      <description>Este manual ofrece una introducción tutorial completa al lenguaje Python.</description>
+      <guid>http://libremanuals.net/python.html</guid>
+      <link>http://libremanuals.net/python.html</link>
+      <dc:date>2018-05-26</dc:date>
+    </item>
+
+    
   </channel>
 </rss>
